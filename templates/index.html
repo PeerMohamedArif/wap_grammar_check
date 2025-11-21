@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grammar Agent</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+<main class="container">
+    <h2>Local Grammar Testing</h2>
+
+    <form id="fix-form">
+        <textarea id="input-text" rows="4" placeholder="Type something..."></textarea>
+        <button type="submit">Fix Grammar</button>
+    </form>
+
+    <article id="result" style="display:none;margin-top:20px;">
+        <h4>Corrected Text</h4>
+        <pre id="output"></pre>
+    </article>
+</main>
+
+<script src="/static/main.js"></script>
+</body>
+</html>
